@@ -51,9 +51,13 @@ The server keeps on running infinitely to listen to incoming client requests.
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where,
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`local_socket_file_path` =    Path of the local file socket to be used for communication.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`thread_cnt_limit`       =    Maximum number of threads allowed to be used.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`memory_limit`           =    Maximum amount of total memory in MB permitted to be used.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`num_of_files_limit`    =    Maximum number of files permitted to be open at any point of time.
 
 &nbsp;&nbsp;&nbsp;&nbsp;To execute the client:
@@ -62,9 +66,13 @@ The server keeps on running infinitely to listen to incoming client requests.
   ./a.out  client  local_socket_file_path  dll_name  func_name  func_arg
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where,
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`local_socket_file_path` =    Path of the local file socket to be used for communication.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dll_name`               =    DLL library path to be loaded.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`func_name`              =    Function of the DLL library to be invoked. Permitted function signature: double func(double).
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`func_arg `              =    Argument to be supplied to the DLL function.
 
 **Commands for a sample run**
